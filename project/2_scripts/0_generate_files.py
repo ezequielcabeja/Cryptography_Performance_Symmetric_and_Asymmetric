@@ -3,7 +3,7 @@ import os
 # Tamanhos em bytes
 file_sizes = [8, 64, 512, 4096, 32768, 262144, 2097152]
 
-output_dir = "../data"
+output_dir = "../1_data"
 
 os.makedirs(output_dir, exist_ok=True)
 counter = 0
